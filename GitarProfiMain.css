@@ -593,8 +593,26 @@
   text-align: center;
   margin-top: 100px;
 }
+.nextLesons{
+  margin-left: 200px;
+  margin: 100px;
+  width: 85%;
+  position: relative;
+}
 
-
+.nextLesons .linkLesons{
+  width: 250px;
+  left: 70px;
+  text-decoration: none;
+  color: #4a6da7;
+  cursor: pointer;
+  font-size: 40px;
+  z-index: 130;
+  transition: 0.3s;
+}
+.nextLesons .linkLesons:hover{
+  letter-spacing: 5px;
+}
 
 @media (max-width: 991px)
 {
